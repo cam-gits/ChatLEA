@@ -1,10 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 
-root = #site
-links = #list 
+root = "site"
+links = []
 stash = open("dump.txt", "a") 
-
 
 for link in links:
     response = requests.get(f'{root}/{link}')
@@ -12,7 +11,14 @@ for link in links:
     content = response.text
     soup = BeautifulSoup(content, 'html.parser')
 
-    stash.write(soup.find('div', class_='content').get_text())
-    print('...')
-
+    title = soup.find('title').get_text()
+    paragraphs = "".join([p.text for p in soup.find_all("p")])
+    try:
+        stash.write("".join([p.text for p in soup.find_all("p")]))
+        print(title + ' stashed')
+    except:
+        print('Error in: ' + title)
+        print(paragraphs)
+    
 stash.close()
+
