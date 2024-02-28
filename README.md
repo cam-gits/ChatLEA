@@ -8,8 +8,8 @@ The knowledgebase will include broad information around local government and ele
 ## Status
 - [x] Scope
 - [x] Build and test scraper
-- [ ] **Scrape non candidate data**
-- [ ] Data Transformation
+- [x] Scrape non candidate data
+- [ ] **Data Transformation**
 - [ ] Data Embedding
 - [ ] GPT API
 - [ ] Alpha
