@@ -22,3 +22,5 @@ The knowledgebase will include broad information around local government and ele
 ### Scraper.py
 A simple multi page text scraper used to get and store background government and election information from citizensinformation.ie and waterfordcouncil.ie
 
+### config.py
+Basic settings file, mostly to house an API key so I don't accidently commit it.
