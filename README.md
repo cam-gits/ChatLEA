@@ -10,9 +10,8 @@ The knowledgebase will include broad information around local government and ele
 - [x] Build and test scraper
 - [x] Scrape non candidate data
 - [x] Data Transformation
-- [ ] **Data Embedding**
-- [ ] GPT API
-- [ ] Alpha
+- [x] Data Embedding
+- [ ] Questioning
 - [ ] Candidate Data Addition
 - [ ] Frontend
 - [ ] Beta
