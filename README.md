@@ -1,3 +1,6 @@
+>[!IMPORTANT]
+>This project was shelved due to limitations of LLMs at the time of development - basically, initial test questioning produced far too high a frequency of hallucinations. It did however transpire to be unintentionally brilliant at translating LEO and social welfare jargon for the average person, resulting in the spiritual successor: [blaai](https://github.com/cam-gits/blaai)
+
 # ChatLEA
 A chatbot for the 2024 local elections in Waterford City &amp; County
 
